@@ -14,6 +14,7 @@ import matplotlib.pyplot as plt
 %matplotlib inline # if preference is displaying images in python console, rather than with cv2 package.
 
 from PIL import Image
+from setting_up_recognizer import multiple_preds
 
 
 face_cascade = cv2.CascadeClassifier('data/haarcascade_frontalface_alt.xml')
