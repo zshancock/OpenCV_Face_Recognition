@@ -186,7 +186,7 @@ def getImagesWithID(path):
     return IDs,faces
 
 
-# Train the recognzier.
+# Train the recognzier. Save a yml with training protocol to retrieve during implementation. 
 
 recognizer=cv2.face.LBPHFaceRecognizer_create()
 path='04_extracted_faces'
