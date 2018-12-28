@@ -1,5 +1,7 @@
 '''
-Run the setting_up_recognizer.py file first - the training protocol (.yml file) should be in the directory in the 'data' folder. 
+Run the setting_up_recognizer.py file first - the training protocol (.yml file) should be in the directory in the 'data' folder. The .yml
+for the training procedure is quite large (~50MB) and therefore cannot be added to my repository. Running on your local machine using the
+procedure in setting_up_recognizer.py will generate one on your local machine (data/train_recongizer.yml). 
 
 This step will require pathing to a validation image, if the entire project was 
 cloned/copied, then there is one image of Taylor Swift called 'test1' in the validation folder. (as coded below). 
