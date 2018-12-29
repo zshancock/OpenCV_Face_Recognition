@@ -3,7 +3,8 @@
 #### Zac Hancock (zshancock@gmail.com)
 
 ### Introduction
-The Haar cascades method of facial detection still works very well when compared to deep learning counterparts. OpenCV's library offers some good tools to get started detecting faces right away. However, I couldn't find a ton of resources on how to train a model to detect faces *I wanted it to detect* - that is actually recognize whose face it was. 
+The Haar cascades method of facial detection still works very well when compared to deep learning counterparts. OpenCV's library offers some good tools to get started detecting faces right away. However, I couldn't find a ton of resources on how to train a model to detect faces *I wanted it to detect* - that is actually recognize whose face it was. I compiled a mini-data set of images of Selena Gomez, Taylor Swift and Drake and set out to develop a recognizer that could not only identify a face, but label it as well. 
+
 
 ### Prerequisites
 
