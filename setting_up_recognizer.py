@@ -189,7 +189,7 @@ def getImagesWithID(path):
 # Train the recognzier. Save a yml with training protocol to retrieve during implementation. 
 
 recognizer=cv2.face.LBPHFaceRecognizer_create()
-path='04_extracted_faces'
+path='extracted_faces'
 
 Ids,faces=getImagesWithID(path)
 recognizer.train(faces,np.array(Ids))
