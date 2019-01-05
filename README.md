@@ -75,6 +75,12 @@ Once the *setting_up_recognizer.py* has been successful, the *running_recognizer
 
 
 ### Discussion
-...
-...
 
+In the end, my recognizer, though yours may vary depending on your image data set, was *average* at recognizing specific faces. Like below, it performed well in some cases (*as mentioned before, I had around 100 images of each Selena Gomez, Taylor Swift and Drake from Google Images*). However, the Haar cascades have difficutly if the face is not fully visible, at a weird angle, etc. A **deep learning** approach may be more suitable, however I will admit this method worked quickly and was fairly straight forward with OpenCV documentation. Training the recognizer required a couple custom built functions, but the recognizer itself and the face detection (cascades) was only slightly modified from the defaults in the OpenCV library. 
+
+
+![alt text](https://github.com/zshancock/OpenCV_Face_Recognition/blob/master/graphics/validation_example2.png)
+**Correctly identified Taylor Swift (left) and Selena Gomez (right) and 2 'unknowns' were detected in audience.**
+
+
+Next steps would be perhaps incorporating a deep learning procedure for identifying the face, after Haar cascades method has found a face ~ or going to a different detection method to account for faces not head on. OpenCV has a lot to offer, and I will continue to explore it as I build my image proccessing, object detection, image classification, etc. skillset. 
