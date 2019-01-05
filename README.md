@@ -1,5 +1,5 @@
 
-## OpenCV_Face_Recognition (In progress)
+## OpenCV_Face_Recognition
 #### Zac Hancock (zshancock@gmail.com)
 
 ### Introduction
